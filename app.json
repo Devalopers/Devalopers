@@ -1,0 +1,25 @@
+{
+  "addons": [
+
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    }
+  ],
+  "description": "An application for developers",
+  "env": {
+  },
+  "formation": {
+    "web": {
+      "quantity": 1
+    },
+    "test": {
+      "quantity": 32
+    }
+  },
+  "name": "Devalopers",
+  "scripts": {
+  },
+  "stack": "heroku-18"
+}

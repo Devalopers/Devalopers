@@ -1,0 +1,40 @@
+image: node:latest
+
+stages:
+  - npm
+  - test
+  - deploy
+
+npm:
+  stage: npm
+  script:
+    - npm install
+  cache:
+    paths:
+      - node_modules/
+  artifacts:
+    expire_in: 1 days
+    when: on_success
+    paths:
+      - node_modules/
+
+test:
+  stage: test
+  services:
+    - mongo:latest
+  dependencies:
+    - npm
+  script:
+    - npm test
+  coverage:
+   '/coverage/'
+   
+deploy_staging:
+  stage: deploy
+  script:
+    - echo "Deploy to staging server"
+  environment:
+    name: Devalopers-Heroku
+    url: https://devalopers.herokuapp.com/
+  only:
+  - master
