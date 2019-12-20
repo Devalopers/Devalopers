@@ -7,7 +7,7 @@
         "outDir": "dist",
         "importHelpers": true,
         "strict": true,
-        "noImplicitAny": false,
+        "noImplicitAny": true,
         "strictNullChecks": false,
         "noImplicitThis": true,
         "alwaysStrict": true,

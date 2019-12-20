@@ -33,7 +33,7 @@ class CompanyPersister {
   async persistCompany(company) {
     // CompanyModel.persist(company, callback);
     Object.keys(company).forEach((key) => {
-      if (typeof company[key] === String) {
+      if (typeof company[key] == String) {
         company[key] = company[key].trim();
       }
     });
@@ -64,7 +64,7 @@ class CompanyPersister {
     // CompanyModel.persist(company, callback);
 
     Object.keys(request).forEach((key) => {
-      if (typeof request[key] === String) {
+      if (typeof request[key] == String) {
         request[key] = request[key].trim();
       }
     });

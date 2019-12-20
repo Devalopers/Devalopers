@@ -100,7 +100,6 @@ class CompanyController {
     const finalUser = new CompanyModel(finalUserBody);
     const returnedValidation = validateCompany(finalUserBody);
     if (returnedValidation != VadlidationStatus.Successful) {
-      const response = new DevResponse();
       response.fillResponse(APIStatus.Failed, returnedValidation);
       Logger.logInfo(returnedValidation);
       return response;
@@ -815,7 +814,6 @@ class CompanyController {
     const updatedJob = normalizeInput(jobData);
     const returnedValidation = validateJob(updatedJob);
     if (returnedValidation != VadlidationStatus.Successful) {
-      const response = new DevResponse();
       response.fillResponse(APIStatus.Failed, returnedValidation);
       Logger.logInfo(returnedValidation);
       return response;
