@@ -11,7 +11,6 @@ jobs:
       matrix:
         node-version: [8.x, 10.x, 12.x]
         mongodb-version: ["4.0", "4.2"]
-
     steps:
     - uses: actions/checkout@v1
     - name: Use Node.js ${{ matrix.node-version }}
@@ -29,7 +28,7 @@ jobs:
         npm test
       env:
         CI: true
-        env:
+        env: |
           NODE_ENV : development
           APP_HOST : localhost
           APP_PORT : 3000
