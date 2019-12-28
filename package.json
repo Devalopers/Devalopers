@@ -1,7 +1,28 @@
 {
   "name": "devalopers",
   "version": "1.0.0",
-  "description": "Devalopers",
+  "description": "A Jobs and freelancing platform for MENA is the new portal to link companies with Tech Product Developers and Data scientists. It is also a portal to recruit and find jobs for technical product owners, UX Application designers and Technical business consultants Mobile Applications and website Freelancing is in critical need, within MENA, and due to the lack of versatile economy, youth and grads are not able to find a respectable job which is becoming a critical Businesses are now getting accustomed to the new working arrangements that are different from staff employment. Employers can easily find the skills gaps they need to fill that are not available from the existing employees. There is an increasing trend for users and businesses embracing the services of temporary contractors over traditional services.",
+  "contributors": [{
+    "name": "Salah Awad",
+    "email": "salah.awad@outlook.com",
+    "url": "https://www.linkedin.com/in/salahelawad/"
+  }, {
+    "name": "Sami Shameseldeen",
+    "email": "sami_sh.99@outlook.com",
+    "url": "https://www.linkedin.com/in/sami-sh1999/"
+  }, {
+    "name": "Hasan Kataya",
+    "email": "hasankataya10@gmail.com",
+    "url": "https://www.linkedin.com/in/hasan-kataya-130543150/"
+  }, {
+    "name": "Hadi Chahine",
+    "email": "hadichahine232@hotmail.com",
+    "url": "https://www.linkedin.com/in/hadichahine/"
+  }, {
+    "name": "Hamza Jadid",
+    "email": "hamzah.jadeed@gmail.com",
+    "url": "https://www.linkedin.com/in/hamza-jadid/"
+  }],
   "main": "src/app.js",
   "scripts": {
     "tsc": "tsc",
