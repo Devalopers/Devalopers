@@ -4,7 +4,7 @@
 ![GitHub repo size](https://img.shields.io/github/repo-size/devalopers/devalopers)
 ![GitHub contributors](https://img.shields.io/github/contributors/devalopers/devalopers)
 ![GitHub stars](https://img.shields.io/github/stars/devalopers/devalopers?style=social)
-![GitHub forks](https://img.shields.io/github/forks/devalopers/devalopers/README-template.md?style=social)
+![GitHub forks](https://img.shields.io/github/forks/devalopers/devalopers?style=social)
 ![Twitter Follow](https://img.shields.io/twitter/follow/salahelawad?style=social)
 ![GitHub issues](https://img.shields.io/github/issues/devalopers/devalopers)
 
