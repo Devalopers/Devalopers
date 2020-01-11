@@ -9,7 +9,7 @@
 ![GitHub issues](https://img.shields.io/github/issues/devalopers/devalopers)
 
 
-Devalopers is an `online platform (backend here) ` that allows `Tech Companies in Globally and specially in mena ` to post `jobs and projects` while `Developers, UX/Graphic designers, AI/ML, Tech Project managers and Tech product managers` to find `Remote Jobs and Freelancing projects`.
+Devalopers is an `online platform (backend here) ` that allows `Tech Companies in Globally and especially  in MENA ` to post `jobs and projects` while `Developers, UX/Graphic designers, AI/ML, Tech Project managers and Tech product managers` to find `Remote Jobs and Freelancing projects`.
 
 It will be a `free` platform to post jobs and apply for jobs for all its users
 
@@ -29,10 +29,10 @@ yarn install
 ```
 ## Using Devalopers Backend
 
-To use Devalopers Backend, follow these steps:
+To use Devalopers Backend locally, execute the following steps:
 
 ```
-npm start
+npm run dev
 ```
 
 You can run the tests after copying  `.env.test.example` and rename it to `.env.test` and run the below command
@@ -46,7 +46,7 @@ To contribute to Devalopers Backend, follow the steps described in this file:
 
 [Contributing link](https://github.com/Devalopers/Devalopers/blob/master/CONTRIBUTING.md)
 
-Alternatively see the GitHub documentation on [creating a pull request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request).
+Alternatively, see the GitHub documentation on [creating a pull request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request).
 
 ## Contributors
 
