@@ -61,7 +61,7 @@
     "@types/supertest": "^2.0.8",
     "algoliasearch": "^3.32.0",
     "app-root-path": "^2.1.0",
-    "bcrypt": "^3.0.7",
+    "bcrypt": "^5.0.0",
     "body-parser": "^1.18.3",
     "check-dependencies": "^1.1.0",
     "class-transformer": "^0.2.3",
