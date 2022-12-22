@@ -86,7 +86,7 @@
     "instagram-node": "^0.5.8",
     "intl": "^1.2.5",
     "jquery": "^3.3.1",
-    "jsonwebtoken": "^8.4.0",
+    "jsonwebtoken": "^9.0.0",
     "lodash": "^4.17.14",
     "moment": "^2.24.0",
     "mongo-sanitize": "^1.0.1",
